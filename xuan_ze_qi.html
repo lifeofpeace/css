@@ -5,9 +5,9 @@
         
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <title>前言 | css 编码规范</title>
+        <title>选择器 | css 编码规范</title>
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <meta name="description" content="CSS 编码规范">
+        <meta name="description" content="">
         <meta name="generator" content="GitBook 2.6.2">
         <meta name="author" content="itmyhome">
         
@@ -41,8 +41,10 @@
         
     
     
-    <link rel="next" href="dai_ma_feng_ge.html" />
+    <link rel="next" href="shu_xing_suo_xie.html" />
     
+    
+    <link rel="prev" href="tong_yong.html" />
     
 
         
@@ -59,17 +61,17 @@ A.info:hover    {color:green;background:transparent;text-decoration:underline}
 </style>
 <!-- <div style='BORDER: 1px solid #DCE6F4; MARGIN-TOP: 20px; MARGIN-BOTTOM: 20px; MARGIN-LEFT: 5px; MARGIN-RIGHT: 5px; PADDING: 5px; BACKGROUND-COLOR: #eef8ff;line-height:180%; COLOR: #000000; font-family: Verdana; font-size: 9pt; width=100%; FILTER: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr="#FFFFFFFF", EndColorStr="#F2F5FAFF");'>
 ��ҳ�������� <a class="applink" href="http://www.spidersoft.com"><b>WebZIP 7.0.0.1025</b></a>  ��  12/01/15 13:11:01.<br>
-<b>��ַ:</b> <a class="info" href="https://itmyhome.gitbooks.io/css/content/index.html">https://itmyhome.gitbooks.io/css/content/index.html</a><br>
-<b>����:</b> 前言 | css 编码规范 &nbsp;&bull;&nbsp; <b>��С:</b> 19856 &nbsp;&bull;&nbsp; <b>����޸�:</b> Tue, 01 Dec 2015 02:39:34 GMT<br></div>
+<b>��ַ:</b> <a class="info" href="https://itmyhome.gitbooks.io/css/content/xuan_ze_qi.html">https://itmyhome.gitbooks.io/css/content/xuan_ze_qi.html</a><br>
+<b>����:</b> 选择器 | css 编码规范 &nbsp;&bull;&nbsp; <b>��С:</b> 22777 &nbsp;&bull;&nbsp; <b>����޸�:</b> Tue, 01 Dec 2015 02:39:34 GMT<br></div>
 <!-- /Copyright � 2005. Spidersoft Ltd -->
 
 
         
         
     <div class="book"
-        data-level="0"
-        data-chapter-title="前言"
-        data-filepath="README.md"
+        data-level="2.1"
+        data-chapter-title="选择器"
+        data-filepath="xuan_ze_qi.md"
         data-basepath="."
         data-revision="Tue Dec 01 2015 02:39:14 GMT+0000 (UTC)"
         data-innerlanguage="">
@@ -94,7 +96,7 @@ A.info:hover    {color:green;background:transparent;text-decoration:underline}
 
             
     
-        <li class="chapter active" data-level="0" data-path="index.html">
+        <li class="chapter " data-level="0" data-path="index.html">
             
                 
                     <a href="index.html">
@@ -234,7 +236,7 @@ A.info:hover    {color:green;background:transparent;text-decoration:underline}
             <ul class="articles">
                 
     
-        <li class="chapter " data-level="2.1" data-path="xuan_ze_qi.html">
+        <li class="chapter active" data-level="2.1" data-path="xuan_ze_qi.html">
             
                 
                     <a href="xuan_ze_qi.html">
@@ -665,10 +667,39 @@ A.info:hover    {color:green;background:transparent;text-decoration:underline}
                 
                     <section class="normal" id="section-">
                     
-                        <h1 id="&#x524D;&#x8A00;">&#x524D;&#x8A00;</h1>
-<p>CSS &#x4F5C;&#x4E3A;&#x7F51;&#x9875;&#x6837;&#x5F0F;&#x7684;&#x63CF;&#x8FF0;&#x8BED;&#x8A00;&#xFF0C;&#x4E00;&#x76F4;&#x6709;&#x7740;&#x5E7F;&#x6CDB;&#x7684;&#x5E94;&#x7528;&#x3002;&#x672C;&#x6587;&#x6863;&#x7684;&#x76EE;&#x6807;&#x662F;&#x4F7F; CSS &#x4EE3;&#x7801;&#x98CE;&#x683C;&#x4FDD;&#x6301;&#x4E00;&#x81F4;&#xFF0C;&#x5BB9;&#x6613;&#x88AB;&#x7406;&#x89E3;&#x548C;&#x88AB;&#x7EF4;&#x62A4;&#x3002;</p>
-<p>&#x867D;&#x7136;&#x672C;&#x6587;&#x6863;&#x662F;&#x9488;&#x5BF9; CSS &#x8BBE;&#x8BA1;&#x7684;&#xFF0C;&#x4F46;&#x662F;&#x5728;&#x4F7F;&#x7528;&#x5404;&#x79CD; CSS &#x7684;&#x9884;&#x7F16;&#x8BD1;&#x5668;(&#x5982; less&#x3001;sass&#x3001;stylus &#x7B49;)&#x65F6;&#xFF0C;&#x9002;&#x7528;&#x7684;&#x90E8;&#x5206;&#x4E5F;&#x5E94;&#x5C3D;&#x91CF;&#x9075;&#x5FAA;&#x672C;&#x6587;&#x6863;&#x7684;&#x7EA6;&#x5B9A;&#x3002;</p>
-<p><a href="http://itmyhome.com" target="_blank">麦田技术博客</a></p>             
+                        <h1 id="&#x9009;&#x62E9;&#x5668;">&#x9009;&#x62E9;&#x5668;</h1>
+<h4 id="&#x5F3A;&#x5236;-&#x5982;&#x65E0;&#x5FC5;&#x8981;&#xFF0C;&#x4E0D;&#x5F97;&#x4E3A;-id&#x3001;class-&#x9009;&#x62E9;&#x5668;&#x6DFB;&#x52A0;&#x7C7B;&#x578B;&#x9009;&#x62E9;&#x5668;&#x8FDB;&#x884C;&#x9650;&#x5B9A;&#x3002;"><a id="user-content-&#x5F3A;&#x5236;-&#x5982;&#x65E0;&#x5FC5;&#x8981;&#x4E0D;&#x5F97;&#x4E3A;-idclass-&#x9009;&#x62E9;&#x5668;&#x6DFB;&#x52A0;&#x7C7B;&#x578B;&#x9009;&#x62E9;&#x5668;&#x8FDB;&#x884C;&#x9650;&#x5B9A;" class="anchor" href="#&#x5F3A;&#x5236;-&#x5982;&#x65E0;&#x5FC5;&#x8981;&#x4E0D;&#x5F97;&#x4E3A;-idclass-&#x9009;&#x62E9;&#x5668;&#x6DFB;&#x52A0;&#x7C7B;&#x578B;&#x9009;&#x62E9;&#x5668;&#x8FDB;&#x884C;&#x9650;&#x5B9A;" aria-hidden="true"><span class="octicon octicon-link"></span></a>[&#x5F3A;&#x5236;] &#x5982;&#x65E0;&#x5FC5;&#x8981;&#xFF0C;&#x4E0D;&#x5F97;&#x4E3A; <code>id</code>&#x3001;<code>class</code> &#x9009;&#x62E9;&#x5668;&#x6DFB;&#x52A0;&#x7C7B;&#x578B;&#x9009;&#x62E9;&#x5668;&#x8FDB;&#x884C;&#x9650;&#x5B9A;&#x3002;</h4>
+
+<p>&#x89E3;&#x91CA;&#xFF1A;</p>
+
+<p>&#x5728;&#x6027;&#x80FD;&#x548C;&#x7EF4;&#x62A4;&#x6027;&#x4E0A;&#xFF0C;&#x90FD;&#x6709;&#x4E00;&#x5B9A;&#x7684;&#x5F71;&#x54CD;&#x3002;</p>
+
+<p>&#x793A;&#x4F8B;&#xFF1A;</p>
+
+<div class="highlight highlight-source-css"><pre><span class="pl-c">/* good */</span>
+<span class="pl-e">#error</span>,
+<span class="pl-e">.danger-message</span> {
+    <span class="pl-c1"><span class="pl-c1">font</span>-<span class="pl-c1">color</span></span>: <span class="pl-c1">#c00</span>;
+}
+
+<span class="pl-c">/* bad */</span>
+<span class="pl-ent">dialog</span><span class="pl-e">#error</span>,
+<span class="pl-ent">p</span><span class="pl-e">.danger-message</span> {
+    <span class="pl-c1"><span class="pl-c1">font</span>-<span class="pl-c1">color</span></span>: <span class="pl-c1">#c00</span>;
+}</pre></div>
+
+<h4 id="&#x5EFA;&#x8BAE;-&#x9009;&#x62E9;&#x5668;&#x7684;&#x5D4C;&#x5957;&#x5C42;&#x7EA7;&#x5E94;&#x4E0D;&#x5927;&#x4E8E;-3-&#x7EA7;&#xFF0C;&#x4F4D;&#x7F6E;&#x9760;&#x540E;&#x7684;&#x9650;&#x5B9A;&#x6761;&#x4EF6;&#x5E94;&#x5C3D;&#x53EF;&#x80FD;&#x7CBE;&#x786E;&#x3002;"><a id="user-content-&#x5EFA;&#x8BAE;-&#x9009;&#x62E9;&#x5668;&#x7684;&#x5D4C;&#x5957;&#x5C42;&#x7EA7;&#x5E94;&#x4E0D;&#x5927;&#x4E8E;-3-&#x7EA7;&#x4F4D;&#x7F6E;&#x9760;&#x540E;&#x7684;&#x9650;&#x5B9A;&#x6761;&#x4EF6;&#x5E94;&#x5C3D;&#x53EF;&#x80FD;&#x7CBE;&#x786E;" class="anchor" href="#&#x5EFA;&#x8BAE;-&#x9009;&#x62E9;&#x5668;&#x7684;&#x5D4C;&#x5957;&#x5C42;&#x7EA7;&#x5E94;&#x4E0D;&#x5927;&#x4E8E;-3-&#x7EA7;&#x4F4D;&#x7F6E;&#x9760;&#x540E;&#x7684;&#x9650;&#x5B9A;&#x6761;&#x4EF6;&#x5E94;&#x5C3D;&#x53EF;&#x80FD;&#x7CBE;&#x786E;" aria-hidden="true"><span class="octicon octicon-link"></span></a>[&#x5EFA;&#x8BAE;] &#x9009;&#x62E9;&#x5668;&#x7684;&#x5D4C;&#x5957;&#x5C42;&#x7EA7;&#x5E94;&#x4E0D;&#x5927;&#x4E8E; <code>3</code> &#x7EA7;&#xFF0C;&#x4F4D;&#x7F6E;&#x9760;&#x540E;&#x7684;&#x9650;&#x5B9A;&#x6761;&#x4EF6;&#x5E94;&#x5C3D;&#x53EF;&#x80FD;&#x7CBE;&#x786E;&#x3002;</h4>
+
+<p>&#x793A;&#x4F8B;&#xFF1A;</p>
+
+<div class="highlight highlight-source-css"><pre><span class="pl-c">/* good */</span>
+<span class="pl-e">#username</span> <span class="pl-ent">input</span> {}
+<span class="pl-e">.comment</span> <span class="pl-e">.avatar</span> {}
+
+<span class="pl-c">/* bad */</span>
+<span class="pl-e">.page</span> <span class="pl-e">.header</span> <span class="pl-e">.login</span> <span class="pl-e">#username</span> <span class="pl-ent">input</span> {}
+<span class="pl-e">.comment</span> <span class="pl-ent">div</span> <span class="pl-ent">*</span> {}</pre></div>
+                    
                     </section>
                 
                 
@@ -677,8 +708,10 @@ A.info:hover    {color:green;background:transparent;text-decoration:underline}
         </div>
 
         
+        <a href="tong_yong.html" class="navigation navigation-prev " aria-label="Previous page: 通用"><i class="fa fa-angle-left"></i></a>
         
-        <a href="dai_ma_feng_ge.html" class="navigation navigation-next navigation-unique" aria-label="Next page: 代码风格"><i class="fa fa-angle-right"></i></a>
+        
+        <a href="shu_xing_suo_xie.html" class="navigation navigation-next " aria-label="Next page: 属性缩写"><i class="fa fa-angle-right"></i></a>
         
     </div>
 </div>
